@@ -1,0 +1,331 @@
+body{
+    background-color: #F8F8F8;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header{
+    padding: 18px;
+    border-top: 1px solid #D9FFF5;
+    background-color: white;
+}
+
+.header__title{
+    font-size: 16px;
+    font-family: TTLakes-Thin;
+    color: #7E7E82;
+}
+.swiper-slide{
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 40px;
+    padding: 13px;
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #EAEAEA;
+    border-radius:6px ;
+}
+
+.swiper-slide__lenovo{
+    background-image: url(./lenovo.jpg);
+    width: 120px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.swiper-slide__samsung{
+    background-image: url(./samsung.jpg);
+    width: 128px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.swiper-slide__apple{
+    background-image: url(./apple.jpg);
+    width: 128px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.swiper-slide__viewsonic{
+    background-image: url(./viewsonic.jpg);
+    width: 128px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.swiper-slide__bosch{
+    background-image: url(./bosch.jpg);
+    width: 128px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.swiper-slide__hp{
+    background-image: url(./hp.jpg);
+    width: 128px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.swiper-slide__acer{
+    background-image: url(./acer.jpg);
+    width: 128px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.swiper-slide__sony{
+    background-image: url(./sony.jpg);
+    width: 128px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.swiper-slide__lenovo{
+    background-image: url(./lenovo.jpg);
+    width: 128px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.swiper-slide__samsung{
+    background-image: url(./samsung.jpg);
+    width: 128px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.swiper-slide__apple{
+    background-image: url(./apple.jpg);
+    width: 128px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+
+.swiper-slide__go{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #FF3E79;
+    border-radius: 50%;
+    background-image: url(./go.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+.swiper-pagination-bullet{
+    background-color:#B5B6BC;
+    width: 10px;
+    height: 10px;
+}
+
+
+
+
+
+.slider-menu__link{
+    display: flex;
+    max-width:215px;
+    max-height: 40px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #EAEAEA;
+    border-radius:6px ;
+} 
+
+.slider-menu__lenovo{
+    background-image: url(./lenovo.jpg);
+    max-width:120px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.slider-menu__samsung{
+    background-image: url(./samsung.jpg);
+    width: 120px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.slider-menu__apple{
+    background-image: url(./apple.jpg);
+    width: 120px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.slider-menu__viewsonic{
+    background-image: url(./viewsonic.jpg);
+    width: 120px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.slider-menu__bosch{
+    background-image: url(./bosch.jpg);
+    width: 120px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.slider-menu__hp{
+    background-image: url(./hp.jpg);
+    width: 128px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.slider-menu__acer{
+    background-image: url(./acer.jpg);
+    width: 100px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.slider-menu__sony{
+    background-image: url(./sony.jpg);
+    width: 120px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.slider-menu__lenovo{
+    background-image: url(./lenovo.jpg);
+    width: 120px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.slider-menu__samsung{
+    background-image: url(./samsung.jpg);
+    width: 120px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.slider-menu__apple{
+    background-image: url(./apple.jpg);
+    width: 120px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+
+.slider-menu__go{
+    min-width: 40px;
+    min-height: 40px;
+    border: 2px solid #FF3E79;
+    border-radius: 50%;
+    background-image: url(./go.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.show-more{
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.show-more__btn {
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+@media ( min-width: 320px) { 
+    .slider-menu {
+        display: none;
+ }
+
+ .show-more {
+    display: none;
+ }
+
+}
+
+
+
+@media (min-width: 768px) {
+    .myswiper{
+        display: none;
+    }
+
+    .header{
+        padding: 16px;
+    }
+
+    .slider-menu{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        overflow: hidden;
+        max-height: 140px;
+        padding: 20px;
+        row-gap: 13px;
+        column-gap: 16px;
+        
+    }
+
+    .show-more {
+        display: block;
+     }
+    
+}
+
+
+@media (min-width: 1120px) {
+    .myswiper{
+        display: none;
+    }
+
+    .header{
+        padding: 16px;
+    }
+
+    .slider-menu{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        max-height: 140px;
+        max-width: 1120px;
+        padding: 20px;
+        row-gap: 13px;
+        column-gap: 16px;
+    }
+    .show-more{
+        display: block;
+     }
+    
+}
+
+
