@@ -12,65 +12,66 @@
     <header class="header">
         <h1 class="header__title">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h1>
     </header>
+    
 
     <div class="myswiper">
         <div class="swiper">
-            <div class="swiper-wrapper">
-                <a class="swiper-slide" href="#">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide" href="#">
+                    <a class="swiper-slide__lenovo"></a>
+                    <a class="swiper-slide__go"></a>
+                </li>
+
+                <li class="swiper-slide" href="#">
+                    <a class="swiper-slide__samsung"></a>
+                    <a class="swiper-slide__go"></a>
+                </li>
+
+                <li class="swiper-slide" href="#">
+                    <a class="swiper-slide__apple"></a>
+                    <a class="swiper-slide__go"></a>
+                </li>
+
+                <li class="swiper-slide" href="#">
+                    <a class="swiper-slide__viewsonic"></a>
+                    <a class="swiper-slide__go"></a>
+                </li>
+
+                <li class="swiper-slide" href="#">
+                    <a class="swiper-slide__bosch"></a>
+                    <a class="swiper-slide__go"></a>
+                </li>
+
+                <li class="swiper-slide" href="#">
+                    <a class="swiper-slide__hp"></a>
+                    <a class="swiper-slide__go"></a>
+                </li>
+
+                <li class="swiper-slide" href="#">
+                    <a class="swiper-slide__acer"></a>
+                    <a class="swiper-slide__go"></a>
+                </li>
+
+                <li class="swiper-slide" href="#">
+                    <a class="swiper-slide__sony"></a>
+                    <a class="swiper-slide__go"></a>
+                </li>
+
+                <li class="swiper-slide" href="#">
                     <div class="swiper-slide__lenovo"></div>
                     <div class="swiper-slide__go"></div>
-                </a>
+                </li>
 
-                <a class="swiper-slide" href="#">
-                    <div class="swiper-slide__samsung"></div>
-                    <div class="swiper-slide__go"></div>
-                </a>
+                <li class="swiper-slide" href="#">
+                    <a class="swiper-slide__samsung"></a>
+                    <a class="swiper-slide__go"></a>
+                </li>
 
-                <a class="swiper-slide" href="#">
-                    <div class="swiper-slide__apple"></div>
-                    <div class="swiper-slide__go"></div>
-                </a>
-
-                <a class="swiper-slide" href="#">
-                    <div class="swiper-slide__viewsonic"></div>
-                    <div class="swiper-slide__go"></div>
-                </a>
-
-                <a class="swiper-slide" href="#">
-                    <div class="swiper-slide__bosch"></div>
-                    <div class="swiper-slide__go"></div>
-                </a>
-
-                <a class="swiper-slide" href="#">
-                    <div class="swiper-slide__hp"></div>
-                    <div class="swiper-slide__go"></div>
-                </a>
-
-                <a class="swiper-slide" href="#">
-                    <div class="swiper-slide__acer"></div>
-                    <div class="swiper-slide__go"></div>
-                </a>
-
-                <a class="swiper-slide" href="#">
-                    <div class="swiper-slide__sony"></div>
-                    <div class="swiper-slide__go"></div>
-                </a>
-
-                <a class="swiper-slide" href="#">
-                    <div class="swiper-slide__lenovo"></div>
-                    <div class="swiper-slide__go"></div>
-                </a>
-
-                <a class="swiper-slide" href="#">
-                    <div class="swiper-slide__samsung"></div>
-                    <div class="swiper-slide__go"></div>
-                </a>
-
-                <a class="swiper-slide" href="#">
-                    <div class="swiper-slide__apple"></div>
-                    <div class="swiper-slide__go"></div>
-                </a>
-            </div>
+                <li class="swiper-slide" href="#">
+                    <a class="swiper-slide__apple"></a>
+                    <a class="swiper-slide__go"></a>
+                </li>
+            </ul>
             <div class="swiper-pagination"></div>
         </div>    
     </div> 
@@ -140,7 +141,7 @@
     
 
     <div class="show-more">
-        <img class="show-more__img" src="./show-more.jpg">
+        <img class="show-more__img" src="./img/show-more.jpg">
         <button class="show-more__btn" type="button">Показать все</button>
     </div>
         
@@ -148,29 +149,6 @@
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
                 <script src="./script.js"></script>
-    
-
-
-<!------Показать все/скрыть------->                
-    <script>
-        let showMoreBtn = document.querySelector('.show-more__btn')   //сохраняем в переменную кнопку
-        let sliderMenu = document.querySelector('.slider-menu')       //сохраняем в переменную класс с брендами 
-        let showMoreImg = document.querySelector('.show-more__img')   //сохраняем в переменную изо-е стрелочки 
-
-        showMoreBtn.addEventListener('click', function() {             //повесили обработчик событий на кнопку
-            if( showMoreBtn.innerHTML === 'Показать все') {                      //если кнопка равна: показать все 
-                sliderMenu.style.maxHeight = 'max-content'             //высота контента макисмальная 
-                showMoreImg.style.transform = 'rotate(180deg)'         //стелочка вращется на 180 градусов
-                showMoreBtn.textContent = 'Скрыть'                     //текст кнопки теперь: скрыть 
-            } else {
-                sliderMenu.style.maxHeight = '140px'                    //иначе, высота контента 140px
-                showMoreImg.style.transform = 'rotate(0deg)'            //стрелочка в исходном положении
-                showMoreBtn.textContent = 'Показать все'                //текст кнопки: показать все
-            }
-        });
-    </script>
-    
-
 
 </body>
 </html>
