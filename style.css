@@ -14,8 +14,15 @@ body{
 
 .header__title{
     font-size: 16px;
-    font-family: TTLakes-Thin;
+    font-family: TTLakes-Regular;
+    line-height: 24px;
+    letter-spacing: -0.2px;
     color: #7E7E82;
+}
+
+
+.swiper-wrapper{
+    padding-left: 10px;
 }
 .swiper-slide{
     margin-top: 16px;
@@ -264,12 +271,234 @@ body{
     background: transparent;
 }
 
+
+
+ /*! -------------------------------------------------------------------------------------------------------------*/ 
+ .header__technique{
+    background-color: white;
+    padding: 18px;
+ }
+
+ .header__technique-title{
+    font-size: 16px;
+    font-family: TTLakes-Regular;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+ }
+
+.technique__card{
+    position: relative;
+    width: 220px;
+    height: 160px;
+    padding: 10px;
+    border: 1px solid #EAEAEA;
+    background-color: white;
+    border-radius: 6px;
+}
+
+
+.technique-company{
+    position: absolute;
+    transform: translate(5px,-60px);
+    font-family: TT Lakes;
+    font-weight: 600;
+    font-size: 16px;
+    color:#1B1C21;
+}
+
+.technique-go{
+    position: absolute;
+    bottom: 16px;
+    cursor: pointer;
+    right:16px;
+    min-width: 40px;
+    min-height: 40px;
+    border: 2px solid #FF3E79;
+    border-radius: 50%;
+    background-image: url(./img/go.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.technique__link{
+    position: relative;
+    width: 240px;
+    height: 160px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;
+}
+
+.show-more__technique{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.show-more__technique-btn{
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+
+
+
+
+
+
+
+.header__price{
+    background-color: white;
+    padding: 18px;
+}
+
+.header__price-title{
+    font-size: 16px;
+    font-family: TTLakes-Regular;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+}
+
+
+
+.slider-price__service{
+    font-family: TT Lakes;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color:#7E7E82;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+
+.slider-price{
+    height: 200px;
+    width: 240px;
+}
+
+
+
+.slider-price__service-block{
+    bottom: 15px;;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.slider-price__order-block{
+    display: flex;
+}
+
+
+.slider-price__btn--order{
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 600;
+    bottom: 20px;
+    right: 20px;
+    height: 32px;
+    width: 119px;
+    padding-right: 5px;
+    border: none;
+    color: white;
+    border-radius: 16px;
+    background-color: #FF3E79;
+    background-image: url(./img/send.svg);
+    background-repeat: no-repeat;
+    background-position: 100px;
+}
+
+.slider-price__service-value{
+    position: relative;
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1B1C21;
+    margin:0;
+}
+
+
+
+
+
+.price__notes{
+    margin-left: 24px;
+    padding: 0 20px;
+    font-family: TTLakes-Regular;
+    font-size: 14px;
+    color: #1B1C21;
+}
+
+.price__notes--link{
+    display: flex;
+    text-decoration: none;
+    margin-right: 5px;
+    color: #1B1C21;
+    font-size: 16px;
+
+    
+}
+
+.price__notes--img{
+    background-image: url(./img/more.svg);
+    height: 24px;
+    width: 24px;
+    
+}
+
+
+
+
+.footer__body{
+    border-top: 1px solid #D9FFF5;
+    font-size: 14px;
+    margin-top: 60px;
+    max-height: 129px;
+    color: #7E7E82;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__left{
+    margin: 0;
+}
+.footer__center{
+    margin: 0;
+}
+.footer__right{
+    margin: 0;
+}
+
+
+
+
+
 @media ( min-width: 320px) { 
     .slider-menu {
         display: none;
  }
 
+    .technique-menu {
+        display: none;
+    }
+
  .show-more {
+    display: none;
+ }
+
+ .show-more__technique{
+    display: none;
+ }
+
+ .price__tablet{
     display: none;
  }
 
@@ -277,15 +506,17 @@ body{
 
 
 
+
+
+
+
 @media (min-width: 768px) {
     .myswiper{
         display: none;
     }
-
     .header{
         padding: 16px;
     }
-
     .slider-menu{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -296,11 +527,94 @@ body{
         column-gap: 16px;
         
     }
-
     .show-more {
         display: block;
      }
+
+    .technique-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+    max-height: 170px;
+    max-width: 1120px;
+    padding: 20px;
+    row-gap: 13px;
+    column-gap: 16px;
+    }
+
+    .technique-company{
+        transform: translate(16px, 16px);
+    }
+
+    .show-more__technique{
+        display: block;
+    }
+
+    .swiper-price{
+        display: none;
+    }
+
+    .price__tablet{
+        display: flex;
+        flex-direction: column;
+        margin:20px;
+    }
+
+    .price__table{
+        background-color: white;
+        margin-top:20px;
+        min-width: 720px;
+        min-height: 356px;
+
     
+
+    }
+    .price__title {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        font-family: TTLakes-Regular;
+        color: #7E7E82;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .price__row{
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #EAEAEA ;
+        padding: 24px 0px;
+        margin: 0 16px;
+        font-family: TTLakes-Regular;
+        font-size: 16px;
+        line-height: 18px;
+    
+    }
+
+    .price__column1{
+        flex:3;
+    }
+    .price__column2{
+        flex: 1;
+    }
+    .price__column3{
+        flex: 1;
+    }
+    .price__column4{
+        flex: 1;
+    }
+
+    .slider-price__btn--tablet{
+        position: static;
+    }
+
+
+    .footer__body{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 20px;
+    }
 }
 
 
@@ -316,6 +630,7 @@ body{
     .slider-menu{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        overflow: hidden;
         max-height: 140px;
         max-width: 1120px;
         padding: 20px;
@@ -325,7 +640,13 @@ body{
     .show-more{
         display: block;
      }
+
+     .technique-menu{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 20px;
+        row-gap: 13px;
+        column-gap: 16px;
+        }
     
 }
-
-

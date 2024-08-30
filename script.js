@@ -24,3 +24,10 @@ var swiper = new Swiper('.swiper', {
                 showMoreBtn.textContent = 'Показать все'                //текст кнопки: показать все
             }
         });
+
+        
+        
+      
+
+
+        
